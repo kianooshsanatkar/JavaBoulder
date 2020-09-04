@@ -6,12 +6,6 @@ import com.enterpriseframework.core.domain.conventionalobjects.IEmail;
 
 import java.util.Date;
 
-enum PersonState
-{
-    state1,
-    state2,
-    state3
-}
 
 public class Person extends BaseEntity {
     public User User;
